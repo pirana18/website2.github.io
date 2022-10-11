@@ -1,0 +1,284 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    
+}
+body{
+    background-image: url(https://th.bing.com/th/id/R.eb1f149424afdc94bd198a6a4cd7a5c1?rik=HjmG%2bc48S1UYLg&pid=ImgRaw&r=0);
+    background-size: cover;
+}
+.max-width{
+    max-width: 1300px;
+    padding:0 80px;
+    margin: auto;
+}
+.navbar{
+    position:fixed;
+    width: 100%;
+    padding: 15px 0;
+    background:rgb(18, 92, 196);
+    font-family: 'Times New Roman', Times, serif;
+}
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo a{
+    color:  rgb(149, 122, 11);
+    font-size: 20px;
+    font-weight: 600;
+}
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+.navbar .menu li a {
+    color: rgb(168, 179, 55);
+    font-weight: 600;
+    text-transform: uppercase;
+    position: relative;
+    margin:0 18px;
+}
+.navbar .menu ul li a:hover{
+    color: #131111;
+}
+.navbar .menu ul li a:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background: #fd4766;
+ 
+    transition: .3s;
+    bottom: 0;
+}
+.navbar .menu ul li a:hover:after{
+    width: 100%;
+}
+.main h1{
+    color: gold;
+    font-size: 25px;
+    font-weight: 900;
+    line-height: 50px;
+    text-transform: inherit;
+    width: 70%;
+   margin-top:50px auto 0;
+}
+.main h1 span{
+    color: #05f35c;
+}
+.main p{
+    width: 55%;
+    color: #06c7ea;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    font-weight: 800;
+}
+/*-----About me page-----*/
+body{
+    background-image: url(https://th.bing.com/th/id/R.eb1f149424afdc94bd198a6a4cd7a5c1?rik=HjmG%2bc48S1UYLg&pid=ImgRaw&r=0);
+    background-size: cover;
+}
+#about-section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+
+    padding: 78px 0px;
+}
+#about-left img{
+ height:600px;
+ width:680px;
+ padding-left: 300px;
+ padding-right: 10px;
+}
+.about-right{
+    width:700px;
+}
+.about-left{
+    width: 1130px;
+    max-width: 95%;
+    margin:0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-right ul li{
+   line-height: 35px;
+    align-items: center;
+
+}
+.about-right h1{
+    color: rgb(9, 156, 197);
+    font-size:30px ;
+    margin-bottom: 5px;
+}
+.about-right p a{
+    color: bisque;
+}
+
+/*-----Skill page-----*/
+.container2 h3{
+    margin: 50px;
+    line-height: 5px;
+}
+.container2 h1{
+    text-align: center;
+}
+.container2 {
+    width: 900px;
+    margin: 60px auto;
+    color: whitesmoke;
+    padding: 20px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25),0 10px 10px rgba(0,0,0,0.22);
+}
+.container2 li{
+    margin: 10px 0;
+}
+.progress-bar-container:not(:last-child) {
+    margin-bottom: 50px;
+}
+
+
+.progress-bar-container h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #eee;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+
+.progress-bar {
+    width: 800px;
+    height: 10px;
+    margin-top: 10px;
+    border: 1px solid #565656;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(245, 159, 0);
+}
+
+
+.percentage {
+    display: block;
+    height: 100%;
+    background-color: rgb(230, 96, 198);
+    border-radius: 5px;
+    animation: progress 1500ms ease-in 1;
+}
+
+.c {
+    width: 65%;
+}
+
+.html {
+    width: 89%;
+}
+
+.css {
+    width: 85%;
+}
+
+.javascript {
+    width: 55%;
+}
+@keyframes progress {
+    from {
+        width: 0;
+    }
+}
+
+
+/*-----Contact me page-----*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+   padding: 40px 0;
+}
+.container h1{
+    color:#ddd;
+    text-align: center;
+
+}
+.border{
+    width: 100px;
+    height: 10px;
+    background: #34495e;
+    margin: 40px auto;
+}
+.contact-form{
+    max-width: 600px;
+    margin: auto;
+    padding:0 10px;
+    overflow:hidden;
+}
+
+.contact-form-text{
+    display: block;
+    width:100%;
+    box-sizing: border-box;    
+    margin:16px 0;
+    border:0;
+    background:white;
+    padding:20px 40px;
+    outline:none;
+    color: darkslategrey;
+    transition: 0.5s;
+
+}
+.contact-form-text:focus{
+  box-shadow: 0 0 10px 4px yellowgreen;
+
+}
+textarea.contact-form-text{
+resize:none;
+height: 120px;
+}
+.contact-form-btn{
+    float: right;
+    border:0;
+    background:#066dd3;
+    color: rgb(37, 31, 31);
+    padding: 12px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+   
+}
+.contact-form-btn:hover{
+background: #dc8cdd;
+}
+/*-----My qualification page-----*/
+
+table{
+    margin-left: 20px;
+    margin-right: 100px;
+    color: white;
+    font-size: 18;
+    width: 70%;
+}
+.table, th, td {
+    border: 1px solid;
+  }
+
+
+h3,h2{
+    margin-left: 50px;
+    margin-right: 100px;
+    color:rgb(247, 73, 247);
+    padding: 10px;
+    
+}
+td{
+    text-align: center;
+    color: whitesmoke;
+    font-weight: 200;
+}
